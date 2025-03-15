@@ -56,3 +56,8 @@ function createPost(threadId) {
 }
 
 loadThreads();
+
+window.onerror = function(message, source, lineno, colno, error) {
+    alert("エラー発生！\n" + message + "\n" + source + ":" + lineno);
+};
+
