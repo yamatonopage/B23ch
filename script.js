@@ -1,12 +1,13 @@
 // Firebase 初期化
-const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyCIG-KrEj9vb5mPa1f7VXyHh0NGqDsiZCI",
+    authDomain: "b23ch-d24be.firebaseapp.com",
+    projectId: "b23ch-d24be",
+    storageBucket: "b23ch-d24be.firebasestorage.app",
+    messagingSenderId: "902657440000",
+    appId: "1:902657440000:web:61cb6570b59d423ca01be5",
+    measurementId: "G-FGE5FCRSZ0"
+  };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
